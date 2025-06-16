@@ -14,6 +14,10 @@ A brief description of the contents within each folder is provided below.
 
 ### PDE model
 Contains MATLAB code for numerical simulations of the full partial differential equation (PDE) model.
+- **PDE_simulation.m** - runs a numeric simulation of full PDE model.
+- **Recruit.m** - Density-dependent recruitment function.
+- **load_death.m** — Load-dependent mortality function.
+- **Growth.m** — Within-host pathogen growth function.
 
 ### 1st order approximation
 Includes MATLAB code for the first-order approximation, which tracks changes in mean pathogen load while assuming a fixed aggregation level.
